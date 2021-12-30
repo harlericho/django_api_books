@@ -40,6 +40,9 @@ Proyecto de una api restful usando django - python - sqlite3
 
         > python3 manage.py runserver
 
+- Inicio del api:
+   > http://127.0.0.1:8000/api/books/
+
 
 
 ## _Realizado por:_
