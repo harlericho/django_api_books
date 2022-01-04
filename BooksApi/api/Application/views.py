@@ -26,7 +26,7 @@ class BookView(View):
             if len(dataList) > 0:
                 data = {'message': 'Success', 'data': dataList}
             else:
-                data = {'message': 'Not found', 'data': {}}
+                data = {'message': 'Not found', 'data': dataList}
             return JsonResponse(data)
 
     def post(self, request):
