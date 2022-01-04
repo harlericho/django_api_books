@@ -52,9 +52,10 @@ MIDDLEWARE = [
     'corsheaders.middleware.CorsMiddleware',
 ]
 
-CORS_ORIGIN_WHITE_LIST = [
-    'http://localhost',
-]
+# CORS_ORIGIN_WHITE_LIST = [
+#     'http://localhost',
+# ]
+CORS_ALLOW_ALL_ORIGINS = True
 
 ROOT_URLCONF = 'BooksApi.urls'
 
